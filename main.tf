@@ -1,7 +1,7 @@
 terraform {
   required_providers {
     aws = {
-      source  = "test-h/s3-webapp"
+      source  = "hashicorp/aws"
       version = "~> 4.0.0"
     }
   }
